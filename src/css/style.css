@@ -40,6 +40,9 @@ h3{
   margin: 0;
 }
 
+p{
+  margin:0;
+}
 
 
 
@@ -86,7 +89,7 @@ h3{
 
 .subtitle {
   position: relative;
-  margin: 0;
+  margin-top: 7.17px;
   line-height: 100%;
   z-index: 2;
 }
@@ -146,20 +149,26 @@ text-align: center;
  
 }
 
+.videoconteiner {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  height: 814px;
+}
+
 .videotitle {
   padding-top: 100px;
-  margin: 0;
+  line-height: 72px;
 }
 
 .videotitle2 {
-  margin: 0;
   color: #FE8A02;
-
+  line-height: 72px;
 }
 
 .videosubtitle {
   padding-top: 27px;
   padding-bottom: 30px;
+  line-height: 25,6px;
 }
 
 .video {
@@ -191,6 +200,8 @@ text-align: center;
   width: 350px;
   height: 323px;
   margin: 0;
+  padding-top: 0;
+  padding-left: 0;
 }
 
 .colortext{
@@ -255,7 +266,7 @@ text-align: center;
 }
 
 .card_text {
-padding-top: 0;
+  padding-top: 0;
   margin: 0;
   line-height: 160%;
 }
@@ -481,21 +492,17 @@ footer{
   width: 1110px;
   height: 190px;
   background-color: #42413C;
-  padding-left: 55px;
-  padding-right: 55px;
   display: flex; 
   justify-content: space-between;
 }
 
 .group_title {
   color: #fff;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding: 55px 122px 55px 55px;
 }
 
 .mail{
-  padding-top: 38px;
-  
+  padding: 38px 55px 40px 0;
 }
 
 legend{
@@ -503,34 +510,40 @@ legend{
   color: #fff;
   font-size: 18px;
   line-height: 160%;
+  padding: 0;
 }
 
 input{
   width: 423px;
   height: 50px;
+  padding: 15px;
   margin: 0;
+  padding: 0;
 }
 
-.placeholder{
-  color: #757575;
-  opacity: 0.2;
-  font-family:'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13.1px;
-  line-height: 160%;
-  border: none;
+input[type=text] {
   padding-left: 15px;
+  font-size: 13.1px;
+  line-height: 160%; 
 }
 
 .mail_button {
-  position: relative;
+  position:relative;
   right: 7px;
-  top: 5px;
+  top: 6px;
   height: 50px;
   width: 70px;
   background-color: #FE8A02;
   border:#FE8A02 ;
+  padding: 0;
+}
+
+.mail_button::before{
+  position: relative;
+  content:url(/css/img/send.svg);
+
+  background-position:center;
+  background-repeat:no-repeat;
 }
 
 .mail_button:hover {
@@ -555,15 +568,21 @@ input{
 
 .frame {
   padding-top: 76px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 160%;
+}
+
+.footer_link{
+  color: #1085C5;
+  text-decoration-line: underline;
+}
+
+.state_outro{
+  padding-top: 16px;
 }
 
 .outro {
-  font-family:'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 160%;
-  text-align: center;
-  color: #000;
+padding-top: 16px;
 }
 
