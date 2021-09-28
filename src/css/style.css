@@ -23,6 +23,7 @@ h1{
   margin: 0;
 }
 
+
 h2{
   font-family: 'neucha', sans-serif;
   font-size: 60px;
@@ -64,7 +65,7 @@ p{
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  opacity: .6; 
+  opacity: 0.06; 
   z-index: -1;
   background-image: url(img/background.png);
 }
@@ -110,6 +111,7 @@ p{
 
 .text {
   width: 540px;
+  line-height: 26px;
 }
 
 .button {
@@ -168,7 +170,7 @@ text-align: center;
 .videosubtitle {
   padding-top: 27px;
   padding-bottom: 30px;
-  line-height: 25,6px;
+  line-height: 160%;
 }
 
 .video {
@@ -192,6 +194,7 @@ text-align: center;
 }
 
 .nav_intro {
+  position: relative;
   font-family: 'neucha', sans-serif;
   font-size: 52px;
   line-height: 62.4px;
@@ -200,8 +203,6 @@ text-align: center;
   width: 350px;
   height: 323px;
   margin: 0;
-  padding-top: 0;
-  padding-left: 0;
 }
 
 .colortext{
@@ -363,7 +364,7 @@ text-align: center;
 /* IKEA EFFECT */ 
 
 .ikea_effect {
-  background-image: url(img/background.png);
+  background-image: url(img/background2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -391,7 +392,7 @@ text-align: center;
 }
 
 .premature_optimization {
-  background-image: url(img/background.png);
+  background-image: url(img/background2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -414,7 +415,7 @@ text-align: center;
 /* DISTORTION OF NOVELTY */
 
 .distortion_of_novelty{
-  background-image: url(img/background.png);
+  background-image: url(img/background2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -436,7 +437,7 @@ text-align: center;
 /* HYPERBOLIC DEPRECIATION */
 
 .hyperbolic_depreciation {
-  background-image: url(img/background.png);
+  background-image: url(img/background2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -458,7 +459,7 @@ text-align: center;
 /* ERRORIS IN PLANNING */
 
 .errors_in_planning {
-  background-image: url(img/background.png);
+  background-image: url(img/background2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -480,15 +481,20 @@ text-align: center;
 /* FOOTER */
 
 footer{
-  max-width: 1110px;
-  margin: 0 auto 0;
-  height: 581px;
   background-color: #fff;
+  min-width: 1440px;
+  height: 581px;
+}
+
+.footerconteiner{
+  max-width: 1110px;
+  height: 581px;
+  margin: 0 auto 0;
   padding-top: 100px;
 }
 
+
 .group {
-  box-sizing: border-box;
   width: 1110px;
   height: 190px;
   background-color: #42413C;
