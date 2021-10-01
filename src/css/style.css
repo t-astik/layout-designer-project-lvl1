@@ -75,6 +75,7 @@ p{
   max-width: 1110px;
   margin: 0 auto 0;
   height: 914px;
+ padding-bottom: 100px;
 }
 
 
@@ -90,8 +91,10 @@ p{
 }
 
 .subtitle {
+  color: #2A2626;
   position: relative;
   padding-top: 7.17px;
+  line-height: 100%;
   z-index: 2;
 }
 
@@ -104,12 +107,13 @@ p{
 }
 
 .header_text{
-  padding-top: 222px;
+  margin-top: 220px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .text1{
   float: left;
-  position: absolute;
   width: 540px;
   height: 141px;
   line-height: 26px;
@@ -126,7 +130,7 @@ p{
 }
 
 .button {
-  position: relative;
+  position: absolute;
   width: 148px;
   height: 49px;
   padding: 0;
@@ -134,11 +138,15 @@ p{
   border:#FE8A02 ;
 
   margin-left: 570px;
-  margin-bottom: 100px;
+
+  bottom: 100px;
 
 
+  font-family:'Open Sans', sans-serif;
+  font-weight: normal;
   font-weight: bold;
   font-size: 16px;
+  line-height: 160%;
   color: white;
   text-align: center;
 }
@@ -197,15 +205,22 @@ p{
 
 .navigation {
   background-color: #42413C;
- /* min-width: 1440px; */
+ min-width: 1440px;
   min-height: 991px;
+  padding-top: 100px;
+}
+
+.navconteiner {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  height: 891px;
 }
 
 .cards_cont {
   display: flex;
   flex-wrap: wrap;
   justify-content:flex-start;
-  padding-top: 216px;
+  padding-top: 116px;
 }
 
 .nav_intro {
