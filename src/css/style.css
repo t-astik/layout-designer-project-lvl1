@@ -112,7 +112,7 @@ p{
 }
 
 .header_text{
-  margin-top: 201px;
+  margin-top: 209px;
   gap: 30px;
   column-count: 2;
   column-width: 540px;
@@ -134,7 +134,7 @@ p{
   margin-left: 570px;
   bottom: 100px;
 
-  padding: 12px 24px 12px 24px;
+  padding: 13px 24px 14px;
 
   font-family:'Open Sans', sans-serif;
   font-weight: normal;
@@ -183,8 +183,8 @@ p{
 }
 
 .videosubtitle {
-  padding-top: 27px;
-  padding-bottom: 30px;
+  padding-top: 31px;
+  padding-bottom: 26px;
   line-height: 160%;
 }
 
